@@ -26,10 +26,15 @@ https://cloud.google.com/endpoints/docs/openapi/enable-api#enabling_an_api
 
 Next, ensure you have Terraform installed. If you do not have the Terraform CLI installed, see the following guide: https://developer.hashicorp.com/terraform/tutorials/gcp-get-started/install-cli  
 
-Then, git clone this repo to your PC. Modify the terraform.tfvars file to have the full file path to your credential .JSON file you downloaded, and the name of the project. There are a couple other variables in the variables.tf for the region and zone where the database will be hosted. They have default values in the variables.tf but, if desired, you could override the defaults in the terraform.tfvars file.
+Then, git clone this repo to your PC. Modify the cloned terraform.tfvars file to have the full file path to your credential .JSON file you downloaded, and the name of the project. There are a couple other variables in the variables.tf for the region and zone where the database will be hosted. They have default values in the variables.tf, but, if desired, you could override the defaults in the terraform.tfvars file.
 
-In the terminal change directory to the location of the main.tf file that you cloned and run the following command:
-  terraform apply
+In the terminal change directory to the location of the main.tf file that you cloned and run the following command:  
+`terraform init`
+
+If all goes well, you should see a message that reads: Terraform has been successfully initialized!  
+
+Then, run the following command:  
+`terraform apply`
   
 The terminal will show the 8 resources that are planned to be created, if you agree with their configuration and would like to create the resources, then enter "yes" into the prompt.
 
