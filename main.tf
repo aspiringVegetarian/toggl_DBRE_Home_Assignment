@@ -168,7 +168,7 @@ resource "google_monitoring_alert_policy" "primary_database_disk_usage_alert" {
   conditions {
     display_name = "Disk Usage over 85%"
     condition_threshold {
-      filter          = "metric.type=\"agent.googleapis.com/disk/percent_used\" resource.type=\"gce_instance\" resource.label.\"instance_id\"=\"google_compute_instance.primary_database.id\" resource.label.\"device_name\"=\"/dev/sda1\""
+      filter          = "metric.type=\"agent.googleapis.com/disk/percent_used\" resource.type=\"gce_instance\" resource.label.\"instance_id\"=\"google_compute_instance.primary_database.id\""
       duration        = "60s"
       comparison      = "COMPARISON_GT"
       threshold_value = 85.0
