@@ -39,6 +39,9 @@ Then, run the following command:
   
 The terminal will show the 8 resources that are planned to be created, if you agree with their configuration and would like to create the resources, then enter "yes" into the prompt.
 
+It might take a minute to initialize all of the resources. When you are done with the resources, be sure to run the following command to remove all of the resources as to not incur any unneccesary billing:  
+`terraform destroy`
+
 ## Conclusion
 Thank you for taking the time to read the README! If you have any issues/questions please don't hesitate to reach out to me by email at vasiliauskas.mg@gmail.com
 
