@@ -1,5 +1,6 @@
-# toggl_DBRE_Home_Assignment
-This folder has the three files necessary to implement the toggl DBRE Home Assignment. **I hope I get the honor of becoming a Toggler!**
+# toggl DBRE Home Assignment
+This folder has the three files necessary to implement the toggl DBRE Home Assignment.  
+**I hope I get the honor of becoming a Toggler!**  
 
 ## File List   
 1.  **main.tf**
@@ -39,6 +40,6 @@ Then, run the following command:
 The terminal will show the 8 resources that are planned to be created, if you agree with their configuration and would like to create the resources, then enter "yes" into the prompt.
 
 ## Conclusion
-Thank you for taking the time to read the README! If you have any issues/questions please don't hesitate to reach out to me by email @ vasiliauskas.mg@gmail.com
+Thank you for taking the time to read the README! If you have any issues/questions please don't hesitate to reach out to me by email at vasiliauskas.mg@gmail.com
 
 GO TOGGL!
